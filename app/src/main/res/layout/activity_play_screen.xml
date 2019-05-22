@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="10dp"
-        android:text="Button"
+        android:text="Create a Playlist"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="Quick Playlist"
         app:layout_constraintTop_toBottomOf="@+id/buttonCreate"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -29,16 +29,16 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="Browse Playlists"
         app:layout_constraintTop_toBottomOf="@+id/buttonQuick"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
-        android:id="@+id/buttonAchivements"
+        android:id="@+id/buttonAchievements"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="Achievements"
         app:layout_constraintTop_toBottomOf="@+id/buttonBrowse"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -47,16 +47,16 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAchivements"
+        android:text="My Playlists"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAchievements"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
-        android:id="@+id/buttonFavouratePlaylists"
+        android:id="@+id/buttonFavoritePlaylists"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="Favorite Playlists"
         app:layout_constraintTop_toBottomOf="@+id/buttonMyPlaylists"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -65,8 +65,8 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
-        app:layout_constraintTop_toBottomOf="@id/buttonFavouratePlaylists"
+        android:text="Account"
+        app:layout_constraintTop_toBottomOf="@id/buttonFavoritePlaylists"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
@@ -74,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="Settings"
         app:layout_constraintTop_toBottomOf="@+id/buttonAccount"
         tools:layout_editor_absoluteX="0dp" />
 
